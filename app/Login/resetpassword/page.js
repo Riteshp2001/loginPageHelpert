@@ -44,10 +44,10 @@ export default function ResetPassword({ handleSignUp }) {
         </span>
       </div>
       <div className="w-full flex flex-col gap-3 py-5">
-        <h1 className="sm:text-xl text-black font-extrabold md:text-3xl whitespace-nowrap">
+        <h1 className="sm:text-2xl text-black font-extrabold md:text-3xl whitespace-nowrap">
           Create New Password
         </h1>
-        <h5 className="text-[#666666] text-sm">
+        <h5 className="text-[#666666] text-sm sm:w-[90%] md:w-[70%]">
           Yay! your password was Reset. And now you can create a new password.
         </h5>
       </div>
