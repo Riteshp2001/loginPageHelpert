@@ -1,23 +1,19 @@
 import SignUp from "./signup/page";
 import CompleteProfile from "./completeprofile/page";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import LeftScreen from "./leftscreen";
 import CreateAccount from "./createaccount/page";
 import ResetPassword from "./resetpassword/page";
 
 export default function Login() {
-  const router = useRouter();
   const [currentPage, setCurrentPage] = useState("createaccount");
 
   const handleSignUp = () => {
     setCurrentPage("signup");
-    // router.push("/completeprofile"); // Replace with your actual route for complete profile
   };
 
   const handleForgetPassword = () => {
     setCurrentPage("resetPassword");
-    // router.push("/resetpassword"); // Replace with your actual route for reset password
   };
 
   const handleCreateAccount = () => {
