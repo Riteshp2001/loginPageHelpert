@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 import { useState } from "react";
 
 export default function SignUp({
@@ -155,7 +155,7 @@ export default function SignUp({
         </button>
       </div>
       <div className="text-[#666666] text-center">
-        i don't have account{" "}
+        i don&apos;t have account{" "}
         <div
           onClick={handleCompleteProfile}
           className="font-extrabold text-blue-500 cursor-pointer hover:underline"

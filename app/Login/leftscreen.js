@@ -10,7 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function LeftScreen() {
   return (
-    <div className="w-[50%] h-screen overflow-hidden ">
+    <div className="hidden md:block w-[50%] h-screen overflow-hidden">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

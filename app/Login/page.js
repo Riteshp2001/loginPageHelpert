@@ -1,3 +1,4 @@
+"use client"
 import SignUp from "./signup/page";
 import CompleteProfile from "./completeprofile/page";
 import { useState } from "react";
@@ -68,7 +69,7 @@ export default function Login() {
   return (
     <main className="flex w-screen h-screen">
       <LeftScreen />
-      <div className="w-[50%] overflow-hidden bg-white flex items-center justify-center flex-col">
+      <div className="sm:w-full md:w-[50%] sm:overflow-auto md:overflow-hidden bg-white flex items-center justify-center flex-col">
         {renderPage()}
       </div>
     </main>
