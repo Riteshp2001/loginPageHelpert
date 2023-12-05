@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState } from "react";
 
 export default function CompleteProfile({
@@ -41,7 +41,7 @@ export default function CompleteProfile({
         </span>
       </div>
       <div className="w-full flex flex-col gap-3 py-5">
-        <h1 className="text-black font-extrabold text-3xl whitespace-nowrap">
+        <h1 className="sm:text-xl text-black font-extrabold md:text-3xl whitespace-nowrap">
           Complete your Profile
         </h1>
         <h5 className="text-[#666666] text-sm w-[70%]">
@@ -55,7 +55,7 @@ export default function CompleteProfile({
       >
         {/* Full Name */}
         <input
-          className="py-4 px-3  rounded-md border bg-[#f4f4f4] text-black focus:outline-blue-400 placeholder:text-[#666666]"
+          className="py-4 px-3 w-full rounded-md border bg-[#f4f4f4] text-black focus:outline-blue-400 placeholder:text-[#666666]"
           type="text"
           name="fullName"
           placeholder="Full Name"
@@ -67,7 +67,7 @@ export default function CompleteProfile({
         />
         {/* Last Name */}
         <input
-          className="py-4 px-3  rounded-md border bg-[#f4f4f4] text-black focus:outline-blue-400 placeholder:text-[#666666]"
+          className="py-4 px-3 w-full rounded-md border bg-[#f4f4f4] text-black focus:outline-blue-400 placeholder:text-[#666666]"
           type="text"
           name="lastName"
           placeholder="Last Name"
@@ -79,7 +79,7 @@ export default function CompleteProfile({
         />
         {/* Birthdate */}
         <input
-          className="py-4 px-3  rounded-md border bg-[#f4f4f4] text-black focus:outline-blue-400 placeholder:text-[#666666]"
+          className="py-4 px-3 w-full rounded-md border bg-[#f4f4f4] text-black focus:outline-blue-400 placeholder:text-[#666666]"
           type="date"
           name="birthdate"
           placeholder="Birthdate"

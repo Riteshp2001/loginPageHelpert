@@ -44,7 +44,7 @@ export default function ResetPassword({ handleSignUp }) {
         </span>
       </div>
       <div className="w-full flex flex-col gap-3 py-5">
-        <h1 className="text-black font-extrabold text-3xl whitespace-nowrap">
+        <h1 className="sm:text-xl text-black font-extrabold md:text-3xl whitespace-nowrap">
           Create New Password
         </h1>
         <h5 className="text-[#666666] text-sm">
